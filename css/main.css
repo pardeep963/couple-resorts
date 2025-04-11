@@ -1,0 +1,178 @@
+body {
+  font-family: Georgia, serif;
+  margin: 0;
+  padding: 0;
+  background: #f5f6fa;
+  color: #2a2a2a;
+}
+
+.wrapper {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+header {
+  background: #b2c9d6;
+  padding: 20px;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+nav {
+  text-align: center;
+}
+
+nav ul {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  margin: 15px 0 0 0;
+  padding: 0;
+  list-style: none;
+}
+
+nav a {
+  color: #2a4d69;
+  background: #eaf3fa;
+  text-decoration: none;
+  padding: 8px 16px;
+  border-radius: 4px;
+}
+
+nav a:hover {
+  background: #2a4d69;
+  color: #fff;
+}
+
+ul {
+  padding-left: 20px;
+  margin: 10px 0;
+}
+
+li {
+  margin-bottom: 8px;
+}
+
+a {
+  color: #2a4d69;
+  text-decoration: none;
+}
+
+h1,
+h2,
+h3 {
+  color: #2a4d69;
+  margin-top: 0;
+}
+
+h1 {
+  font-size: 2em;
+  margin: 0;
+}
+
+h2 {
+  font-size: 1.5em;
+  margin-bottom: 15px;
+}
+
+h3 {
+  font-size: 1.2em;
+  margin-bottom: 10px;
+}
+
+.main-img,
+.room-img {
+  width: 100%;
+  margin: 10px 0;
+}
+
+.grid-con {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 20px;
+  padding: 20px 0;
+}
+
+.col-span-2 {
+  grid-column: span 2;
+}
+
+.col-span-4 {
+  grid-column: span 4;
+}
+
+.hero,
+.menu,
+.features,
+.offers,
+.dining-options,
+.contact-info,
+.location,
+.contact-form,
+.room-type {
+  background: #fff;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px #ccc;
+}
+
+footer {
+  background: #b2c9d6;
+  text-align: center;
+  padding: 20px;
+  margin-top: 20px;
+}
+
+.form-group {
+  margin-bottom: 15px;
+}
+
+label {
+  display: block;
+  margin-bottom: 5px;
+}
+
+input,
+textarea {
+  width: 100%;
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+textarea {
+  height: 100px;
+}
+
+button {
+  background: #2a4d69;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+button:hover {
+  background: #1e3550;
+}
+
+.testimonial-box {
+  background: #eaf3fa;
+  padding: 15px;
+  border-radius: 4px;
+}
+
+.guest-name {
+  font-weight: bold;
+}
+
+.location-text {
+  line-height: 1.6;
+}
+
+.contact-details a {
+  display: inline-block;
+  margin: 5px 0;
+}
