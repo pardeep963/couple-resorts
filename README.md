@@ -11,6 +11,6 @@ Validation was done using https://validator.w3.org and https://jigsaw.w3.org/css
 
     From line 32, column 21; to line 32, column 66
 
-              <img src="images/resort.png" class="main-img">↩     
+              <img src="images/resort.jpg" class="main-img">↩     
 
 - No other validation issues
